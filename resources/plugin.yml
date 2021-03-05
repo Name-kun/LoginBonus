@@ -1,0 +1,10 @@
+name: LoginBonus
+version: ${project.version}
+main: xyz.namekun.loginbonus.LoginBonus
+api-version: 1.16
+
+commands:
+  loginbonus:
+    usage: /loginbonus
+    description: reloads the config of the plugin
+    permission: loginbonus

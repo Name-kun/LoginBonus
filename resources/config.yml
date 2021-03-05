@@ -1,0 +1,33 @@
+#The element below should be formatted like this: "hh:mm:ss"
+time: "06:00:00"
+
+#The commands can contain the expression of the player who joined the server as the regex like this: "%player%"
+commands:
+  - ""
+
+#The messages which are displayed to the players and the console (and the setting of the prefix)
+prefix: "&7[&3LoginBonus&7]"
+
+message:
+  noFile: "&cファイルが存在しません。"
+  resetList: "&aプレイヤーリストを削除しました。"
+  alreadyGiven: "&e本日のログインボーナスは受領済です！\nログインボーナスは朝６時更新です。"
+  obtainBonus: "&eログインボーナスを獲得しました！"
+  noPerm: "&c権限がありません。"
+  help:
+    - "&a/loginbonus reload &7| 構成を再読込します。"
+    - "&a/loginbonus delete &7| プレイヤーリストを削除します。"
+  reload: "&a再読込が完了しました。"
+
+#For foreigners↓
+
+#message:
+#  noFile: "&cThe file does not exist."
+#  resetList: "&aThe player list has just been deleted."
+#  alreadyGiven: "&eYou've already given your bonus today! Login Bonus will be updated every 6:00 a.m."
+#  obtainBonus: "&eYou've just obtained your bonus!"
+#  noPerm: "&cYou have no permission to use this."
+#  help:
+#    - "&a/loginbonus reload &7| reload the configuration"
+#    - "&a/loginbonus delete &7| delete the player list"
+#  reload: "&aThe configuration has just been reloaded."
